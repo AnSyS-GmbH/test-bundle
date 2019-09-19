@@ -8,13 +8,13 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Contao\SkeletonBundle\ContaoManager;
+namespace AnSyS\TestBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use Contao\SkeletonBundle\ContaoSkeletonBundle;
+use AnSyS\TestBundle\TestBundle;
 
 class Plugin implements BundlePluginInterface
 {
